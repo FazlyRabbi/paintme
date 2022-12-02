@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap5 style -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- our sytle -->
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive-style -->
+    <link rel="stylesheet" href="./css/responsive-style.css" />
+    <title>Paint Shop</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- header top -->
+      <div class="header-top py-4">
+        <div class="container container-xxl px-3">
+          <div class="row flex-column flex-sm-row">
+            <div
+              class="col col-12 text-center text-sm-start col-sm-5 header_top--left"
+            >
+              <span class="span pe-3 border-end">Reviews</span>
+
+              <span class="span ps-3">Support</span>
+            </div>
+            <div
+              class="col col-12 col-sm-7 text-center text-sm-end pt-4 pt-sm-0 col-md-7 header_top--right text-end"
+            >
+              <span class="span pe-3 border-end">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+
+                <span class="phone d-none d-md-inline-block">
+                  0000 - 123 - 456789
+                </span>
+              </span>
+              <span class="span ps-3">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span class="email d-none d-md-inline-block">
+                  info@example.com
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <nav class="nav shadow-sm text-capitalize">
+        <div class="container container-xxl">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="navbar-logo pb-4 text-center">
+                <img
+                  src="./images/logo.png"
+                  alt="logo"
+                  class="logo d-lg-none"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="navbar-left col-4">
+              <div class="menu d-lg-block d-none">
+                <ul class="menu-items d-flex">
+                  <li class="pe-5"><a href="#">Home</a></li>
+                  <li class="pe-5"><a href="#">shop</a></li>
+                  <li class="pe-5"><a href="#">support</a></li>
+                  <li class="pe-5"><a href="#">contact</a></li>
+                </ul>
+              </div>
+              <span class="d-block d-lg-none"> menu </span>
+            </div>
+
+            <div class="navbar-logo col-4 text-center">
+              <img
+                src="./images/logo.png"
+                alt="logo"
+                class="logo d-none d-lg-inline-block"
+              />
+            </div>
+
+            <div class="navbar-right col-4 text-end">
+              <div class="menu">
+                <ul class="menu-items d-flex justify-content-end">
+                  <li class="pe-4">
+                    <a href="#">
+                      <i class="fa-solid fa-user"></i>
+
+                      <span class="d-none d-lg-inline-block"> Account </span>
+                    </a>
+                  </li>
+                  <li class="pe-4">
+                    <a href="#">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <span class="d-none d-lg-inline-block"> Search </span>
+                  </li>
+                  <li class="pe-4">
+                    <a href="#">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <span class="d-none d-lg-inline-block">Your Cart </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- end -->
+
+    <!-- start -->
+    <section class="hero pb-5">
+      <div class="banner container container-xxl">
+        <div class="row">
+          <div class="content">
+            <p class="text-uppercase title py-4">design your t-shirt</p>
+            <h2 class="text-capitalize heading">
+              we print best
+              <span class="d-block py-4">Designs</span>
+              you want
+            </h2>
+            <p class="pera pt-4 pb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              iusto eaque excepturi assumenda quia, minus rerum repellendus aut
+              iure nihil!
+            </p>
+            <button class="btn rounded-pill px-5 py-3 text-uppercase">
+              read more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container container-xxl">
+        <div class="row">
+          <div class="text-center">
+            <p class="text-uppercase title title-sub pb-3">WE ARE PRINT TIME</p>
+
+            <h3 class="heading-sub">
+              We Print Both Modern &
+
+              <span class="d-block"> Designs With Latest Touch </span>
+            </h3>
+
+            <p class="pera pera-sub pt-2 pb-5">
+              Aenean vel elit scelerisque uleres kuerse uleres yuers
+              koresemauris pellentesque. Quam pellentesque nec nam aliquam sem.
+              In mollis nunc sed id. Velit ut tortor pretium viverra suspendisse
+              potenti. Varius morbi enim nunc faucibus a. Sem fringilla ut morbi
+              tincidunt augue interdum velit euismod in uiytr yuionlor thiese
+              cueresee yuerese ABOUT US
+            </p>
+            <button class="btn rounded-pill px-5 py-3 text-uppercase">
+              read more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service ">
+      <div class="container">
+        <div class="row">
+          <div class="service-title pb-4">
+            <p class="text-uppercase title title-sub ser-title font-bold">
+              our service
+            </p>
+            <h4 class="ser-heading">Modern Printing</h4>
+            <p class="ser-pera">
+              Aliquet porttitor lacus luctus accumsan tortor posuere ac. Feugiat
+              in antem
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <div class="cart shadow-sm p-4 rounded text-center">
+              <div class="div img-wrap rounded py-3 mb-4">
+                <img
+                  src="./images/img/home-icon-1_300x300.webp"
+                  alt="img"
+                  class="cart-img"
+                />
+              </div>
+
+              <h4>surface printing</h4>
+              <p>
+                Nulla facilisi etiam dignissim diam quis enim lobortis
+                scelerisque fermentum enim
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="cart shadow-sm p-4 rounded text-center">
+              <div class="div img-wrap rounded py-3 mb-4">
+                <img
+                  src="./images/img/home-icon-1_300x300.webp"
+                  alt="img"
+                  class="cart-img"
+                />
+              </div>
+
+              <h4>surface printing</h4>
+              <p>
+                Nulla facilisi etiam dignissim diam quis enim lobortis
+                scelerisque fermentum enim
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="cart shadow-sm p-4 rounded text-center">
+              <div class="div img-wrap rounded py-3 mb-4">
+                <img
+                  src="./images/img/home-icon-1_300x300.webp"
+                  alt="img"
+                  class="cart-img"
+                />
+              </div>
+
+              <h4>surface printing</h4>
+              <p>
+                Nulla facilisi etiam dignissim diam quis enim lobortis
+                scelerisque fermentum enim
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="cart shadow-sm p-4 rounded text-center">
+              <div class="div img-wrap rounded py-3 mb-4">
+                <img
+                  src="./images/img/home-icon-1_300x300.webp"
+                  alt="img"
+                  class="cart-img"
+                />
+              </div>
+
+              <h4>surface printing</h4>
+              <p>
+                Nulla facilisi etiam dignissim diam quis enim lobortis
+                scelerisque fermentum enim
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-09" id="footer" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+            <h2 class="footer-heading d-flex">
+              <span
+                class="icon d-flex align-items-center justify-content-center"
+                ><i class="ion-logo-ionic"></i
+              ></span>
+              About
+            </h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li>
+                  <span class="icon ion-ios-pin"></span
+                  ><span class="text"
+                    >203 Fake St. Mountain View, San Francisco, California,
+                    USA</span
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="icon ion-ios-call"></span
+                    ><span class="text">+2 392 3929 210</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="icon ion-ios-send"></span
+                    ><span class="text">info@yourdomain.com</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+                <input
+                  type="text"
+                  class="form-control rounded-left"
+                  placeholder="Enter email address"
+                />
+                <button type="submit" class="form-control submit rounded-right">
+                  <span class="sr-only">Submit</span
+                  ><i class="ion-ios-send"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+            <h2 class="footer-heading d-flex align-items-center">
+              <span
+                class="icon d-flex align-items-center justify-content-center"
+                ><i class="ion-ios-list-box"></i></span
+              >Latest News
+            </h2>
+            <div class="block-21 mb-4 d-flex">
+              <a
+                class="img mr-4 rounded"
+                style="background-image: url(images/image_1.jpg)"
+              ></a>
+              <div class="text">
+                <h3 class="heading">
+                  <a href="#"
+                    >Even the all-powerful Pointing has no control about</a
+                  >
+                </h3>
+                <div class="meta">
+                  <div>
+                    <a href="#"
+                      ><span class="icon-calendar"></span> Oct. 16, 2019</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"><span class="icon-person"></span> Admin</a>
+                  </div>
+                  <div>
+                    <a href="#"><span class="icon-chat"></span> 19</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-21 mb-4 d-flex">
+              <a
+                class="img mr-4 rounded"
+                style="background-image: url(images/image_2.jpg)"
+              ></a>
+              <div class="text">
+                <h3 class="heading">
+                  <a href="#"
+                    >Even the all-powerful Pointing has no control about</a
+                  >
+                </h3>
+                <div class="meta">
+                  <div>
+                    <a href="#"
+                      ><span class="icon-calendar"></span> Oct. 16, 2019</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"><span class="icon-person"></span> Admin</a>
+                  </div>
+                  <div>
+                    <a href="#"><span class="icon-chat"></span> 19</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+            <h2 class="footer-heading d-flex align-items-center">
+              <span
+                class="icon d-flex align-items-center justify-content-center"
+                ><i class="ion-ios-document"></i></span
+              >Information
+            </h2>
+            <ul class="list-unstyled">
+              <li><a href="#" class="py-1 d-block">About</a></li>
+              <li><a href="#" class="py-1 d-block">Products</a></li>
+              <li><a href="#" class="py-1 d-block">Blog</a></li>
+              <li><a href="#" class="py-1 d-block">Contact</a></li>
+              <li><a href="#" class="py-1 d-block">Help &amp; Support</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+            <h2 class="footer-heading d-flex align-items-center">
+              <span
+                class="icon d-flex align-items-center justify-content-center"
+                ><i class="ion-logo-instagram"></i></span
+              >Instagram
+            </h2>
+            <div class="block-24">
+              <div class="row no-gutters">
+                <div class="col-4 col-md-4 p-1">
+                  <a
+                    href="#"
+                    class="img rounded"
+                    style="background-image: url(images/insta-1.jpg)"
+                  ></a>
+                </div>
+                <div class="col-4 col-md-4 p-1">
+                  <a
+                    href="#"
+                    class="img rounded"
+                    style="background-image: url(images/insta-2.jpg)"
+                  ></a>
+                </div>
+                <div class="col-4 col-md-4 p-1">
+                  <a
+                    href="#"
+                    class="img rounded"
+                    style="background-image: url(images/insta-3.jpg)"
+                  ></a>
+                </div>
+                <div class="col-4 col-md-4 p-1">
+                  <a
+                    href="#"
+                    class="img rounded"
+                    style="background-image: url(images/insta-4.jpg)"
+                  ></a>
+                </div>
+                <div class="col-4 col-md-4 p-1">
+                  <a
+                    href="#"
+                    class="img rounded"
+                    style="background-image: url(images/insta-5.jpg)"
+                  ></a>
+                </div>
+                <div class="col-4 col-md-4 p-1">
+                  <a
+                    href="#"
+                    class="img rounded"
+                    style="background-image: url(images/insta-6.jpg)"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 pt-4 border-top">
+          <div class="col-md-6 col-lg-8">
+            <p class="copyright">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-md-right">
+            <p class="copyright">
+              This template is made with
+              <i class="ion-ios-heart" aria-hidden="true"></i> by
+              <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- our script -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

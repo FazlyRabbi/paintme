@@ -1,0 +1,181 @@
+/* colors */
+
+/* pink : #F45DA0
+
+blue : #49B4F0
+
+yeollow : #F5E552 
+*/
+
+:root {
+  --primary-color: #f45da0;
+  --secondary-color: #49b4f0;
+  --third-color: #f5e552;
+  --white-color: #fff;
+  --gray-color: #1e1e1e;
+  --text-color: #fff;
+  --text-gray: #A5A5A5;
+  --black-color: #000;
+  --parimary-font: "Kumbh Sans", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body {
+  font-family: var(--parimary-font);
+  font-size: 100%;
+  font-weight: 400;
+}
+
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top {
+  background-color: var(--gray-color);
+  line-height: 10px !important;
+
+  font-weight: 400;
+  border-color: #777777 !important;
+  color: var(--text-color);
+}
+.nav {
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.menu-items {
+  list-style: none;
+}
+.menu-items > li > a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../images/bg/bg1.webp");
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.content{
+  max-width: 500px;
+  padding-top: 16rem;
+}
+ .title{
+  font-weight: bold;
+   font-size: 18px;
+   color:var(--secondary-color)
+
+}
+.heading{
+  font-weight: bold;
+  font-size: 72px;
+  
+}
+
+.pera{
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+.title-sub{
+
+   font-size: 15px;
+ 
+
+}
+
+.heading-sub{
+  font-weight: bold;
+  font-size: 48px;
+  line-height:1.5;
+
+}
+
+.about{
+  padding:120px 0;
+}
+
+.service{
+  background-image: url("../images/bg/bg-2.webp");
+  height: 650px;
+
+}
+
+.ser-title{
+  color: #fff;
+  font-weight: 500;
+  padding-bottom:10px;
+}
+
+.ser-heading{
+  font-weight: bold;
+  color: var(--white-color);
+  font-size: 48px;
+  padding-bottom:10px;
+
+}
+
+.ser-pera{
+  color:var(--white-color)
+}
+
+
+.cart{
+  width: 300px;
+  min-height: 250px;
+  background-color: var(--white-color);
+  cursor: pointer;
+ 
+}
+
+.img-wrap{
+  background-color: #49b4f0;
+  margin: 0 80px;
+
+}
+
+.cart-img{
+  height: 50px;
+}
+
+.service{
+  padding: 5rem 0;
+}
+
